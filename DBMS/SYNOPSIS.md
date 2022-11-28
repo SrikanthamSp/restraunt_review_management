@@ -16,3 +16,17 @@
 3.  Feedback.
 4. Chooses.
 5. Geo Region.</ins>
+
+**SOFTWARE REQUIREMENTS:**
+
+|Operating System     :|  Windows10|
+|:-----------|:---------|
+|**Database**     :| **MYSQL**|
+|**Development tools and Programming languages:**| **Net Beans 7.2, JavaScript** |
+
+**HARDWARE REQUIREMENTS:**
+
+|Processor :| Intel core i5.|
+|:---|:----|
+|**Memory   :**|  **8 GB.**|
+|**Hard disc :**|  **256GB SSD Hard Drive.**|
