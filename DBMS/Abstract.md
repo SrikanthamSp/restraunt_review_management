@@ -1,6 +1,6 @@
 <h1 align="center">ABSTRACT</h1>
 
-##### This project in question is to build a Restaurant Advice Management System.
+##### This project is to build a Restaurant Advice Management System.
 
 ##### It is designed in such a way that there are two kinds of users:
 
