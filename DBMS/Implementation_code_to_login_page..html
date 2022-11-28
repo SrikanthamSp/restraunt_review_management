@@ -1,24 +1,28 @@
 <?php
 if(isset($_POST['btn_admin']))
 {
- header('Location:adminloginpage.php');
+	header('Location:adminloginpage.php');
 }
-elseif(isset($_POST['btn_user']))
+	elseif(isset($_POST['btn_user']))
 {
- header('Location:userloginpage.php');
+ 	header('Location:userloginpage.php');
 }
+
 ?>
 <html>
 <head>
 <style>
+	
 body
 {
 	background-image: url("http://localhost/miniproject/pics/loginpag.jpg");
 	background-repeat:no-repeat;
 	background-size: 100%;
 }
-.p{
-		color: white;
+	
+.p
+{
+	color: white;
 }
 </style>
 <body>
