@@ -31,22 +31,34 @@ body
 <form action="<?php $_PHP_SELF ?>" method="POST">
 
 <p class="p">Customer Name:<br><input type="text" name="t_name"> <br><br>
+  
+  <!--Customer Name-->
 
 Customer ID:<p class="p"><input type="text" name="t_id" > <br><br>
+  
+  <!--Customer ID-->
 
 Gender:<p class="p"><input type="radio" name="t_type" value="male">Male
 
   &nbsp;&nbsp;&nbsp;<input type="radio" name="t_type" value="female">Female<br><br>
 
 Phone<p class="p"><input type="text" name="t_phone"> <br><br>
+  
+  <!--Phone-->
 
-User ID:<p class="p"><input type="text” placeholder="Enter your Email-Id" name="t_userid"> <br><br>
+User ID:<p class="p"><input type="text"placeholder="Enter your Email-Id" name="t_userid"> <br><br>
+  
+  <!--User ID-->
 
 <label><p class="p">Password must contain maximum 8 characters</label><br><br>
 
 Password:<p class="p"><input type="Password" name="t_password"> <br><br>
+  
+  <!--Password-->
 
 Date of Registration:<p class="p"><input type="Date" name="t_regdate"> <br><br>
+  
+  <!--Date of Registration-->
 
 <input type="submit" name="b_submit" value="Register"><br><br>
 
