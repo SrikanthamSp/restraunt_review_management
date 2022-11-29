@@ -16,7 +16,9 @@ body
 <h2><p class="p"> Insert new restaurant </h2>
 <form action="<?php $_PHP_SELF ?>" method="POST">
 <p class="p">Restaurant Name:<input type="text" name="t_name"> <br><br>
+	<!--Restaurant Name-->
 Restaurant ID:<p class="p"><input type="text" name="t_id" > <br><br>
+	<!--Restaurant ID-->
 Phone no:<p class="p"><input type="text" name="t_phone" > <br><br>
 Address:<p class="p"><input type="text" name="t_address"> <br><br>
 Image:<p class="p"><input type="text" name="t_image"> <br><br>
