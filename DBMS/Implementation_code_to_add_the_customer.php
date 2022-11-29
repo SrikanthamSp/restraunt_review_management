@@ -48,7 +48,7 @@ Phone:<p class="p"><input type="text" name="t_phone"> <br><br>
   
   <!--Phone-->
 
-User ID:<p class="p"><input type="text” placeholder="Enter your Email-Id" name="t_userid"> <br><br>
+User ID:<p class="p"><input type="text" placeholder="Enter your Email-Id" name="t_userid"> <br><br>
 
 <label><p class="p">Password must contain maximum 8 characters</label><br><br>
 
