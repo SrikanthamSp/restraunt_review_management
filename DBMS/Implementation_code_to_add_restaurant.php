@@ -20,12 +20,18 @@ body
 Restaurant ID:<p class="p"><input type="text" name="t_id" > <br><br>
 	<!--Restaurant ID-->
 Phone no:<p class="p"><input type="text" name="t_phone" > <br><br>
+	<!--Phone no-->
 Address:<p class="p"><input type="text" name="t_address"> <br><br>
+	<!--Address-->
 Image:<p class="p"><input type="text" name="t_image"> <br><br>
+	<!--Image-->
 Menu:<p class="p"><input type="text" name="t_menu"> <br><br>
+	<!--Menu-->
  Type:<p class="p"> <input type="radio" name="t_type" value="veg">Veg
   &nbsp;&nbsp;&nbsp;<input type="radio" name="t_type" value="nonveg">Non Veg<br><br>
+	<!--Type-->
  Password:<p class="p"><input type="Password" name="t_psswd"><br><br>
+	<!--Password-->
 <input type="submit" name="b_submit" value="Register"><br><br>
 <label>After the Registration click here to add the gio_region</label><br><br>
 <input type="submit" name="b_submit1" value="Add Gio_region"><br><br>
@@ -49,7 +55,8 @@ $dbpass = ' ';
 $db='miniproject';
 $conn = mysql_connect($dbhost, $dbuser, $dbpass, $db);
 mysql_select_db('miniproject');
-if(! $conn ) {
+if(! $conn ) 
+{
 die('Could not connect: ' . mysql_error());
 }
 $rn=' ';
@@ -71,9 +78,9 @@ $sql= "insert into restaurant(r_id,r_name,phone,address,image,menu,type,psswd) v
 $res = mysql_query($sql,$conn);
 if(!$res)
 { 
-die('could not get data:'. mysql_error());
+die('could not get data: '. mysql_error());
 }
-echo "<br>";
+echo "</br>";
 echo "Restaurant added successfully";
 } 
 mysql_close($conn);
