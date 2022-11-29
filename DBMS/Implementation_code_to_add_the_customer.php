@@ -49,12 +49,18 @@ Phone:<p class="p"><input type="text" name="t_phone"> <br><br>
   <!--Phone-->
 
 User ID:<p class="p"><input type="text" placeholder="Enter your Email-Id" name="t_userid"> <br><br>
+  
+  <!--User ID-->
 
 <label><p class="p">Password must contain maximum 8 characters</label><br><br>
 
 Password:<p class="p"><input type="Password" name="t_password"> <br><br>
+  
+  <!--Password-->
 
 Date of Registration:<p class="p"><input type="Date" name="t_regdate"> <br><br>
+  
+  <!--Date of Registration-->
 
 <input type="submit" name="b_submit" value="Register"><br><br>
 
