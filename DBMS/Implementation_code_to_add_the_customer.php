@@ -31,14 +31,22 @@ body
 <form action="<?php $_PHP_SELF ?>" method="POST">
 
 <p class="p">Customer Name:<br><input type="text" name="t_name"> <br><br>
+  
+  <!--Customer Name-->
 
 Customer ID:<p class="p"><input type="text" name="t_id" > <br><br>
+  
+  <!--Customer ID-->
 
 Gender:<p class="p"><input type="radio" name="t_type" value="male">Male
 
   &nbsp;&nbsp;&nbsp;<input type="radio" name="t_type" value="female">Female<br><br>
+  
+  <!--Gender-->
 
-Phone<p class="p"><input type="text" name="t_phone"> <br><br>
+Phone:<p class="p"><input type="text" name="t_phone"> <br><br>
+  
+  <!--Phone-->
 
 User ID:<p class="p"><input type="text” placeholder="Enter your Email-Id" name="t_userid"> <br><br>
 
