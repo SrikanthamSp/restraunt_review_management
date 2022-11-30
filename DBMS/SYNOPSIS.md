@@ -2,7 +2,7 @@
 
 **Title: Restaurant Advise Management System**
 
-<ins>Team Members :</ins> 
+<ins>Team Members</ins>  :
 | Name:|USN:|
 |:------------|:--------|
 |S Sai Praneeth | 1JT20CS076|
