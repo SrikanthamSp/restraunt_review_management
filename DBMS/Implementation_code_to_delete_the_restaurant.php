@@ -14,8 +14,10 @@ body
 </head>
 <body>
 <h2> <p class="p">Delete a Restaurant </h2>
+	<!--Customer Name-->
 <form action="<?php $_PHP_SELF ?>" method="POST">
 <p class="p">Enter Restaurant ID:<input type="text" name="t_id" > <br><br>
+	<!--Restaurant ID-->
 <input type="submit" name="b_submit" value="Delete Restaurant">
 <input type="submit" name="btn_home" value="Return to home">
 </form>
@@ -32,7 +34,8 @@ $dbpass = '';
 $db='miniproject';
 $conn = mysql_connect($dbhost, $dbuser, $dbpass, $db);
 mysql_select_db('miniproject');
-if(! $conn ) {
+if(! $conn ) 
+{
 die('Could not connect: ' . mysql_error());
 }
 if(isset($_POST['t_id'])){
@@ -45,8 +48,9 @@ if($res && $res1)
 { 
 echo "Restaurant details deleted successfully";
 }
-else{
-echo "<br>";
+else
+{
+echo "</br>";
 echo "No such Restaurant";
 }
 }
