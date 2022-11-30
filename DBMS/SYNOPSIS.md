@@ -17,14 +17,14 @@
 4. Chooses.
 5. Geo Region.</ins>
 
-**SOFTWARE REQUIREMENTS:**
+**SOFTWARE USED:**
 
 |Operating System     :|  Windows10|
 |:-----------|:---------|
 |**Database**     :| **MYSQL**|
 |**Development tools and Programming languages:**| **Net Beans 7.2, JavaScript** |
 
-**HARDWARE REQUIREMENTS:**
+**HARDWARE USED:**
 
 |Processor :| Intel core i5.|
 |:---|:----|
