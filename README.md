@@ -1,1 +1,1 @@
-# DBMS-MINI-PROJECT
+# Restraunt review management system
